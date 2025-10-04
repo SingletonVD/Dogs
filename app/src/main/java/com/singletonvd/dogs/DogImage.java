@@ -9,4 +9,12 @@ public class DogImage {
         this.image = image;
         this.status = status;
     }
+
+    @Override
+    public String toString() {
+        return "DogImage{" +
+                "image='" + image + '\'' +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }
