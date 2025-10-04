@@ -2,22 +2,22 @@ package com.singletonvd.dogs;
 
 public class DogImage {
 
-    private String image;
+    private String message;
     private String status;
 
-    public DogImage(String image, String status) {
-        this.image = image;
+    public DogImage(String message, String status) {
+        this.message = message;
         this.status = status;
     }
 
     public String getImage() {
-        return image;
+        return message;
     }
 
     @Override
     public String toString() {
         return "DogImage{" +
-                "image='" + image + '\'' +
+                "message='" + message + '\'' +
                 ", status='" + status + '\'' +
                 '}';
     }
