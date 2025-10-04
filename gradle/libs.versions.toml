@@ -7,8 +7,9 @@ appcompat = "1.7.1"
 material = "1.13.0"
 activity = "1.11.0"
 constraintlayout = "2.2.1"
-rxJavaVersion = "3.1.5"
-rxAndroidVersion = "3.0.2"
+rxJava = "3.1.5"
+rxAndroid = "3.0.2"
+glide = "5.0.5"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -18,8 +19,9 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-rxjava3-rxjava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJavaVersion" }
-rxjava3-rxadnroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroidVersion" }
+rxjava3-rxjava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJava" }
+rxjava3-rxadnroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroid" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

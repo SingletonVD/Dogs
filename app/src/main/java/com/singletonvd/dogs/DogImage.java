@@ -10,6 +10,10 @@ public class DogImage {
         this.status = status;
     }
 
+    public String getImage() {
+        return image;
+    }
+
     @Override
     public String toString() {
         return "DogImage{" +
